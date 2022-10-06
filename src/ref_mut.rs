@@ -42,3 +42,12 @@ where
         self.deref().fmt(f)
     }
 }
+
+impl<T> std::fmt::Debug for RefMut<T>
+where
+    T: std::fmt::Debug,
+{
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        self.deref().fmt(f)
+    }
+}

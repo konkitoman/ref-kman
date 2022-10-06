@@ -1,6 +1,6 @@
 Ref
 
-## Is a simple `<Arc<Mutex<T>>` system that allow you to read always the value, but act like Mutex on mutating data!
+## Is a simple `Arc<Mutex<T>` system that allow you to read always the value, but act like Mutex on mutating data!
 
 # :warning:Only use if you know what are you doing!
 

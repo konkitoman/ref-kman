@@ -1,0 +1,19 @@
+[package]
+name = "ref-kman"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+atomic-wait = "1.0.1"
+
+[[example]]
+path = "examples/simple.rs"
+name = "simple"
+
+[[example]]
+path = "examples/threading.rs"
+name = "threading"
+
+[[example]]
+path = "examples/with_closure.rs"
+name = "with_closure"

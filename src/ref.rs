@@ -87,6 +87,15 @@ where
     }
 }
 
+impl<T> std::fmt::Debug for Ref<T>
+where
+    T: std::fmt::Debug,
+{
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        self.deref().fmt(f)
+    }
+}
+
 #[cfg(test)]
 mod test {
     use super::Ref;

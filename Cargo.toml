@@ -2,7 +2,7 @@
 name = "ref-kman"
 description = "Shared reference like Mutex"
 author = "konkitoman"
-version = "0.0.1"
+version = "0.0.2"
 license = "GPL-3.0"
 repository = "https://github.com/konkitoman/ref-kman"
 keywords = ["ref", "reference", "mutex"]
